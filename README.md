@@ -1,6 +1,6 @@
 ## Technical Documentation Page
 
- #### :rocket:  [Live preview](https://cansubaydar.github.io/technical-documentation-page/)
+ #### :rocket: [ Live preview ](https://cansubaydar.github.io/technical-documentation-page/)
 
 #### The steps I followed for this project
  - Created a responsive technical documentation page using HTML and CSS
