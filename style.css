@@ -70,9 +70,13 @@ html, body {
 header {
     color: #00293f;
     text-align: center;
-    margin: 40px 10px;
+    margin: 20px 10px;
     font-size: 32px;
     font-weight: 500;
+}
+
+.jp-header {
+    margin: 40px 10px;
 }
 
 h3 {
@@ -97,6 +101,32 @@ h3 {
 @media only screen and (max-width: 450px) {
     .main-doc { 
         padding: 15px 0; 
+    }
+}
+
+.languages {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.languages a {
+    text-decoration: none;
+    color: #00293fd2;
+    background: linear-gradient(transparent 88%,#62ebd7bb 12%);
+    margin: 10px;
+    border-radius: 6px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.languages a:visited {
+    color: #154158;
+}
+
+@media only screen and (max-width: 900px) {
+    .languages a { 
+        margin: 30px 0px 30px 10px; 
     }
 }
 
@@ -168,4 +198,18 @@ h3 {
     padding: 2px;
     margin: 2px;
     word-wrap: break-word;
+}
+
+.back-to-top-button {
+    display: none;
+    position: fixed;
+    right: 2em;
+    bottom: 2em;
+    width: 3.2em;
+    height: 3.2em;
+    outline: none;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    z-index: 10;
 }
