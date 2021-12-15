@@ -9,8 +9,11 @@
     <title>Technical Documentation Page</title>
 </head>
 <body>
+    <button class="back-to-top-button">
+        <img src="../img/arrowbutton.svg" alt="top">
+    </button>
     <nav class="navbar">
-        <header>JavaScript 言語</header>
+        <header class="jp-header">JavaScript 言語</header>
         <ul>
             <li><a class="nav-link" href="#introduction">JavaScript 入門</a></li>
             <li><a class="nav-link" href="#what-is-js">JavaScript とは？</a></li>
@@ -24,6 +27,10 @@
     </nav>
     
     <main class="main-doc">
+        <section class="languages">
+            <a id="EN" href="../en/index.html">English</a>
+            <a id="JP" href="../index.html">日本語</a>
+        </section>
         <section class="main-section" id="introduction">
             <span class="highlight">JavaScript 入門</span>
             <article>
@@ -158,5 +165,7 @@
             </article>
         </section>
     </main>
+
+    <script src="../script.js"></script>
 </body>
 </html>
